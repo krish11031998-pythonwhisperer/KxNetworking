@@ -1,6 +1,9 @@
 import Foundation
 import Combine
 
+
+// MARK: - Endpoint
+
 public protocol EndPoint {
     var scheme: String { get }
     var baseUrl: String { get }
@@ -11,17 +14,17 @@ public protocol EndPoint {
     var request: URLRequest? { get }
     var header: [String : String]? { get }
     func execute<CodableModel: Codable>(refresh: Bool) -> Future<CodableModel,Error>
+    func amendRequestForMultiformDataUpload(keyValues: [MultiFormData]) -> (URLRequest?, Data?)
+    func upload<CodableModel: Codable>(dataValues: [MultiFormData]) -> Future<CodableModel, Error>
 }
 
+
+// MARK: - Default Implementation of Endpoint Protocol
 
 public extension EndPoint {
     
     var scheme: String {
         return "https"
-    }
-    
-    var baseUrl: String {
-        return "signal.up.railway.app"
     }
     
     var method: String {
