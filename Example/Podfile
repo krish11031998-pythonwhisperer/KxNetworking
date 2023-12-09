@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KxNetworking_Tests' do
+  pod 'KxNetworking', :path => '../'
+  
+  
+end
