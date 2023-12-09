@@ -21,7 +21,7 @@ public extension URLSession {
             }
             if let cachedData = DataCache.shared[request], !refresh {
                 if let deceodedData = try? JSONDecoder().decode(T.self, from: cachedData) {
-                    print("(REQUEST📩) returning Cached Response for : \(request.url?.absoluteString ?? "")")
+                    print("(RESPONSE📩) returning Cached Response for : \(request.url?.absoluteString ?? "")")
                     promise(.success(deceodedData))
                 } else {
                     promise(.failure(URLSessionError.decodeErr))
@@ -36,7 +36,7 @@ public extension URLSession {
                     do {
                         let decodedData = try JSONDecoder().decode(T.self, from: validData)
                         DataCache.shared[request] = validData
-                        print("(REQUEST📩) returning Received Response for : \(request.url?.absoluteString ?? "")")
+                        print("(RESPONSE📩) returning Received Response for : \(request.url?.absoluteString ?? "")")
                         promise(.success(decodedData))
                     } catch {
                         let decodeErr = err ?? URLSessionError.decodeErr
@@ -69,7 +69,7 @@ public extension URLSession {
                 
                 do {
                     let decodedData = try JSONDecoder().decode(T.self, from: validData)
-                    print("(REQUEST📩) returning Received Response for : \(request.url?.absoluteString ?? "")")
+                    print("(RESPONSE📩) returning Received Response for : \(request.url?.absoluteString ?? "")")
                     promise(.success(decodedData))
                 } catch {
                     promise(.failure(err ?? URLSessionError.decodeErr))

@@ -13,12 +13,12 @@
 		AD1F5768C38788C6A95015F64BB3CED2 /* Pods-KxNetworking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA6713188CEC84BC32D9AAF4E5B93D /* Pods-KxNetworking_Tests-dummy.m */; };
 		C469528F7D245330D927CF0E58A35413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C78EFFDE156712D357162C1CB70FFCAD /* Pods-KxNetworking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61742F0324C8E2B21AF32BE01914EC41 /* Pods-KxNetworking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFDBE5342B25095100C5597A /* URLSessionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBE52D2B25095100C5597A /* URLSessionError.swift */; };
-		EFDBE5352B25095100C5597A /* Array+URLQueryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBE52F2B25095100C5597A /* Array+URLQueryItem.swift */; };
-		EFDBE5362B25095100C5597A /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBE5302B25095100C5597A /* URLSession.swift */; };
-		EFDBE5372B25095100C5597A /* DataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBE5312B25095100C5597A /* DataCache.swift */; };
-		EFDBE5382B25095100C5597A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBE5322B25095100C5597A /* Endpoint.swift */; };
-		EFDBE5392B25095100C5597A /* MultiFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBE5332B25095100C5597A /* MultiFormData.swift */; };
+		EFDBE53F2B250DC600C5597A /* Array+URLQueryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBE53B2B250DC600C5597A /* Array+URLQueryItem.swift */; };
+		EFDBE5402B250DC600C5597A /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBE53C2B250DC600C5597A /* URLSession.swift */; };
+		EFDBE5412B250DC600C5597A /* MultiFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBE53D2B250DC600C5597A /* MultiFormData.swift */; };
+		EFDBE5422B250DC600C5597A /* URLSessionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBE53E2B250DC600C5597A /* URLSessionError.swift */; };
+		EFDBE5452B250DDD00C5597A /* DataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBE5432B250DDD00C5597A /* DataCache.swift */; };
+		EFDBE5462B250DDD00C5597A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBE5442B250DDD00C5597A /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,12 +53,12 @@
 		B9A0C216A1449F24E65628BE2ECEB5ED /* KxNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KxNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		CAC7BA88B4E0534981DA962CB37ABF29 /* KxNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KxNetworking-Info.plist"; sourceTree = "<group>"; };
 		D5D6F0D81503B817F26E9A10AF009109 /* Pods-KxNetworking_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KxNetworking_Tests"; path = Pods_KxNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFDBE52D2B25095100C5597A /* URLSessionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLSessionError.swift; path = KxNetworking/Classes/URLSessionError.swift; sourceTree = "<group>"; };
-		EFDBE52F2B25095100C5597A /* Array+URLQueryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+URLQueryItem.swift"; sourceTree = "<group>"; };
-		EFDBE5302B25095100C5597A /* URLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
-		EFDBE5312B25095100C5597A /* DataCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataCache.swift; path = KxNetworking/Classes/DataCache.swift; sourceTree = "<group>"; };
-		EFDBE5322B25095100C5597A /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = KxNetworking/Classes/Endpoint.swift; sourceTree = "<group>"; };
-		EFDBE5332B25095100C5597A /* MultiFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultiFormData.swift; path = KxNetworking/Classes/MultiFormData.swift; sourceTree = "<group>"; };
+		EFDBE53B2B250DC600C5597A /* Array+URLQueryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+URLQueryItem.swift"; sourceTree = "<group>"; };
+		EFDBE53C2B250DC600C5597A /* URLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		EFDBE53D2B250DC600C5597A /* MultiFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultiFormData.swift; path = KxNetworking/Classes/MultiFormData.swift; sourceTree = "<group>"; };
+		EFDBE53E2B250DC600C5597A /* URLSessionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLSessionError.swift; path = KxNetworking/Classes/URLSessionError.swift; sourceTree = "<group>"; };
+		EFDBE5432B250DDD00C5597A /* DataCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataCache.swift; path = KxNetworking/Classes/DataCache.swift; sourceTree = "<group>"; };
+		EFDBE5442B250DDD00C5597A /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = KxNetworking/Classes/Endpoint.swift; sourceTree = "<group>"; };
 		FA75A14EC73D845F85E87F001C50903C /* Pods-KxNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KxNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FBC57F724E8E9246A395C9D79C0E5493 /* KxNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KxNetworking.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,11 +86,11 @@
 		17184BF98B45C65D414DFE98E405A934 /* KxNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				EFDBE5312B25095100C5597A /* DataCache.swift */,
-				EFDBE5322B25095100C5597A /* Endpoint.swift */,
-				EFDBE52E2B25095100C5597A /* Extension */,
-				EFDBE5332B25095100C5597A /* MultiFormData.swift */,
-				EFDBE52D2B25095100C5597A /* URLSessionError.swift */,
+				EFDBE5432B250DDD00C5597A /* DataCache.swift */,
+				EFDBE5442B250DDD00C5597A /* Endpoint.swift */,
+				EFDBE53A2B250DC600C5597A /* Extension */,
+				EFDBE53D2B250DC600C5597A /* MultiFormData.swift */,
+				EFDBE53E2B250DC600C5597A /* URLSessionError.swift */,
 				962C76F867AEBF6B127BF021DCF7A4A8 /* Pod */,
 				74C99192997C9FE8665272FBC3E2E19F /* Support Files */,
 			);
@@ -192,11 +192,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EFDBE52E2B25095100C5597A /* Extension */ = {
+		EFDBE53A2B250DC600C5597A /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				EFDBE52F2B25095100C5597A /* Array+URLQueryItem.swift */,
-				EFDBE5302B25095100C5597A /* URLSession.swift */,
+				EFDBE53B2B250DC600C5597A /* Array+URLQueryItem.swift */,
+				EFDBE53C2B250DC600C5597A /* URLSession.swift */,
 			);
 			name = Extension;
 			path = KxNetworking/Classes/Extension;
@@ -316,13 +316,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDBE5462B250DDD00C5597A /* Endpoint.swift in Sources */,
 				7A173B8F7D2834352CBE6ECD42DF2305 /* KxNetworking-dummy.m in Sources */,
-				EFDBE5372B25095100C5597A /* DataCache.swift in Sources */,
-				EFDBE5352B25095100C5597A /* Array+URLQueryItem.swift in Sources */,
-				EFDBE5362B25095100C5597A /* URLSession.swift in Sources */,
-				EFDBE5392B25095100C5597A /* MultiFormData.swift in Sources */,
-				EFDBE5382B25095100C5597A /* Endpoint.swift in Sources */,
-				EFDBE5342B25095100C5597A /* URLSessionError.swift in Sources */,
+				EFDBE53F2B250DC600C5597A /* Array+URLQueryItem.swift in Sources */,
+				EFDBE5452B250DDD00C5597A /* DataCache.swift in Sources */,
+				EFDBE5422B250DC600C5597A /* URLSessionError.swift in Sources */,
+				EFDBE5402B250DC600C5597A /* URLSession.swift in Sources */,
+				EFDBE5412B250DC600C5597A /* MultiFormData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
