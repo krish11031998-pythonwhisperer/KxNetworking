@@ -1,0 +1,6 @@
+framework module Pods_KxNetworking_Tests {
+  umbrella header "Pods-KxNetworking_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

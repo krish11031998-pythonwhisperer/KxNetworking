@@ -1,0 +1,6 @@
+framework module KxNetworking {
+  umbrella header "KxNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

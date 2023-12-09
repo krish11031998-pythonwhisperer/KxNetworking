@@ -1,0 +1,16 @@
+PODS:
+  - KxNetworking (0.1.0)
+
+DEPENDENCIES:
+  - KxNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  KxNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KxNetworking: c723683a2d371a47e7c4c6969f927f10756a8396
+
+PODFILE CHECKSUM: d7c749f2f21ac7b0964312722f745508f741de4e
+
+COCOAPODS: 1.12.1

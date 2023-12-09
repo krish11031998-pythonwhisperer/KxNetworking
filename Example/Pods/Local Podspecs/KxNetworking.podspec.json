@@ -1,0 +1,22 @@
+{
+  "name": "KxNetworking",
+  "version": "0.1.0",
+  "summary": "A short description of KxNetworking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/56647167/KxNetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "56647167": "krishna@getbaraka.com"
+  },
+  "source": {
+    "git": "https://github.com/56647167/KxNetworking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "KxNetworking/Classes/**/*"
+}

@@ -22,7 +22,7 @@ pod 'KxNetworking'
 
 ## Author
 
-56647167, krishna@getbaraka.com
+krish_venkat11@hotmail.com
 
 ## License
 

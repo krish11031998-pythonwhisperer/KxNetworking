@@ -1,5 +1,6 @@
 use_frameworks!
 target 'KxNetworking_Tests' do
+platform :ios, '16.0'
   pod 'KxNetworking', :path => '../'
   
   
