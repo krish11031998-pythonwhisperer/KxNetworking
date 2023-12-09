@@ -32,6 +32,10 @@ TODO: Add long description of the pod here.
 
   s.swift_versions = '5.0'
   s.source_files = 'KxNetworking/Classes/**/*.swift'
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   # s.resource_bundles = {
   #   'KxNetworking' => ['KxNetworking/Assets/*.png']
